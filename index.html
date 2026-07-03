@@ -164,18 +164,40 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15p
   .subbar .chip{white-space:nowrap;flex:0 0 auto}
   .ctrls{margin-top:10px}
 }
+.logo{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;color:var(--ink)}
+.logo svg{width:30px;height:30px}
+.wordmark{display:flex;align-items:baseline;gap:9px}
+.brand b{font-weight:800}
+.social{display:flex;align-items:center;gap:6px;margin-left:auto}
+.social a{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border-radius:9px;color:var(--ink-2);border:1px solid var(--line);background:var(--paper);transition:.15s}
+.social a:hover{color:var(--accent);border-color:var(--accent)}
+.social svg{width:18px;height:18px}
+#toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 8px 24px -12px rgba(21,23,28,.35);opacity:0;visibility:hidden;transform:translateY(8px);transition:.2s;z-index:40}
+#toTop.show{opacity:1;visibility:visible;transform:none}
+#toTop:hover{border-color:var(--accent);color:var(--accent)}
+#toTop svg{width:22px;height:22px}
+.foot{border-top:1px solid var(--line);padding-top:18px;align-items:center}
+.footright{display:inline-flex;align-items:center;gap:12px;text-align:right}
+.copyr{color:var(--mut)}
+@media (max-width:640px){
+  .logo,.logo svg{width:26px;height:26px}
+  .social a{width:30px;height:30px}.social svg{width:16px;height:16px}
+  #toTop{right:14px;bottom:14px;width:40px;height:40px}
+  .foot{flex-direction:column;align-items:flex-start;gap:8px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="top">
-    <div class="brand"><span class="sq"></span><b>YEN's</b><small>DESIGN COLLECTION</small></div>
+    <div class="brand"><span class="logo"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_OSmW{transform-origin:center;animation:spinner_T6mA .75s step-end infinite}@keyframes spinner_T6mA{8.3%{transform:rotate(30deg)}16.6%{transform:rotate(60deg)}25%{transform:rotate(90deg)}33.3%{transform:rotate(120deg)}41.6%{transform:rotate(150deg)}50%{transform:rotate(180deg)}58.3%{transform:rotate(210deg)}66.6%{transform:rotate(240deg)}75%{transform:rotate(270deg)}83.3%{transform:rotate(300deg)}91.6%{transform:rotate(330deg)}100%{transform:rotate(360deg)}}</style><g class="spinner_OSmW" fill="currentColor"><rect x="11" y="1" width="2" height="5" opacity=".14"/><rect x="11" y="1" width="2" height="5" transform="rotate(30 12 12)" opacity=".29"/><rect x="11" y="1" width="2" height="5" transform="rotate(60 12 12)" opacity=".43"/><rect x="11" y="1" width="2" height="5" transform="rotate(90 12 12)" opacity=".57"/><rect x="11" y="1" width="2" height="5" transform="rotate(120 12 12)" opacity=".71"/><rect x="11" y="1" width="2" height="5" transform="rotate(150 12 12)" opacity=".86"/><rect x="11" y="1" width="2" height="5" transform="rotate(180 12 12)"/></g></svg></span><span class="wordmark"><b>YEN's</b><small>DESIGN COLLECTION</small></span></div>
     <div class="tools">
       <button class="iconbtn" id="exportBtn">匯出</button>
       <button class="iconbtn" id="importBtn">匯入</button>
       <button class="iconbtn accent" id="addBtn">＋ 收藏</button>
       <input type="file" id="importFile" accept=".json,application/json,text/plain,text/json" hidden>
     </div>
+    <div class="social"><a href="https://www.instagram.com/studydesign_yen/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a><a href="https://www.threads.com/@yen0314_?hl=zh-tw" target="_blank" rel="noopener" aria-label="Threads"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.056 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.324.145 1.52.715 2.633 1.799 3.22 3.134.82 1.86.895 4.888-1.572 7.311-1.895 1.86-4.195 2.7-7.319 2.712Z"/></svg></a></div>
   </div>
   <div class="stickyhead"><div class="showcase" id="showcase">SHOWCASE — 全部</div>
   <div class="tabs" id="tabs"></div>
@@ -186,7 +208,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15p
   </div></div>
   <div class="tagfilter" id="tagFilter"></div>
   <div class="grid" id="grid"></div>
-  <div class="foot"><span id="footCount"></span><span>由 Yen 整理 · 點卡片看介紹、造訪原站</span><a id="sponsorLink" class="sponsor" target="_blank" rel="noopener" style="display:none"></a></div>
+  <div class="foot"><span id="footCount"></span><span class="footright"><span class="copyr">© 2026 YEN's Design Collection. Good design, gathered on one shelf.</span><a id="sponsorLink" class="sponsor" target="_blank" rel="noopener" style="display:none"></a></span></div>
 </div>
 <div class="overlay" id="detailOverlay"><div class="sheet detail" id="detailSheet" role="dialog" aria-modal="true"></div></div>
 <div class="overlay" id="formOverlay">
@@ -219,6 +241,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15p
   </div>
 </div>
 <div class="toast" id="toast"></div>
+  <button id="toTop" type="button" aria-label="回到頂端"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 13.9142L16.7929 18.7071L18.2071 17.2929L12 11.0858L5.79289 17.2929L7.20711 18.7071L12 13.9142ZM6 7L18 7V9L6 9L6 7Z"/></svg></button>
 <script>
 const KCOL=['var(--k0)','var(--k1)','var(--k2)','var(--k3)'];
 const STORE_KEY='web-collection-view-v1';
@@ -525,7 +548,7 @@ document.querySelectorAll('[data-cc]').forEach(b=>b.onclick=()=>{$('catOverlay')
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDetail();closeForm();$('catOverlay').classList.remove('show');}});
 if(READ_ONLY){ ['addBtn','importBtn','resetBtn','exportBtn'].forEach(id=>{ const e=$(id); if(e) e.style.display='none'; }); }
 if(SPONSOR.show){ const sp=$('sponsorLink'); if(sp){ sp.href=SPONSOR.url; sp.textContent=SPONSOR.label; sp.style.display='inline-flex'; } }
-(function(){ const sh=document.querySelector(".stickyhead"); if(sh){ const f=()=>sh.classList.toggle("stuck",window.scrollY>8); window.addEventListener("scroll",f,{passive:true}); f(); } })();
+(function(){ const sh=document.querySelector(".stickyhead"); const tt=document.getElementById("toTop"); const f=()=>{ const y=window.scrollY; if(sh)sh.classList.toggle("stuck",y>8); if(tt)tt.classList.toggle("show",y>600); }; window.addEventListener("scroll",f,{passive:true}); f(); if(tt)tt.onclick=()=>window.scrollTo({top:0,behavior:"smooth"}); })();
 (async function(){ await load(); render(); })();
 </script>
 </body>
