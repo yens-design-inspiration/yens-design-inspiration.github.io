@@ -7,7 +7,8 @@
       "動態互動",
       "廣告版面",
       "作品集",
-      "產業媒體"
+      "產業媒體",
+      "視覺設計"
     ],
     "設計資源": [
       "字型",
@@ -19,7 +20,7 @@
     ],
     "AI 與工具": [
       "AI 圖像",
-      "Prompt 集",
+      "Prompt 提示詞",
       "生成／創意編碼",
       "動態工具",
       "簡報",
@@ -47,7 +48,7 @@
       "title": "Nano Banana Pro Prompts",
       "url": "https://youmind.com/zh-TW/nano-banana-pro-prompts",
       "main": "AI 與工具",
-      "sub": "Prompt 集",
+      "sub": "Prompt 提示詞",
       "tags": [
         "Nano Banana",
         "Gemini",
@@ -61,7 +62,7 @@
       "title": "GPT Image Prompts",
       "url": "https://evolink.ai/gpt-image-2-prompts",
       "main": "AI 與工具",
-      "sub": "Prompt 集",
+      "sub": "Prompt 提示詞",
       "tags": [
         "GPT image",
         "圖像 prompt",
@@ -75,9 +76,9 @@
       "title": "Prompts Reference",
       "url": "https://promptsref.com/zh",
       "main": "AI 與工具",
-      "sub": "Prompt 集",
+      "sub": "Prompt 提示詞",
       "tags": [
-        "prompt 庫",
+        "prompt",
         "中文",
         "參考"
       ],
@@ -531,7 +532,7 @@
       "title": "Humanizer-zh 去 AI 味",
       "url": "https://github.com/op7418/Humanizer-zh",
       "main": "AI 與工具",
-      "sub": "Prompt 集",
+      "sub": "Prompt 提示詞",
       "tags": [
         "去 AI 味",
         "Claude Skill",
@@ -620,7 +621,7 @@
       "title": "UI/UX Pro Max Skill",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "main": "AI 與工具",
-      "sub": "生成／創意編碼",
+      "sub": "Prompt 提示詞",
       "tags": [
         "Claude Skill",
         "UI/UX",
@@ -633,8 +634,8 @@
       "id": "n_colleagueskill",
       "title": "Colleague Skill",
       "url": "https://github.com/titanwings/colleague-skill/blob/dot-skill/docs/lang/README_ZH.md",
-      "main": "靈感參考",
-      "sub": "",
+      "main": "AI 與工具",
+      "sub": "Prompt 提示詞",
       "tags": [
         "Claude Skill",
         "數字生命"
@@ -646,7 +647,7 @@
       "id": "n_yourselfskill",
       "title": "Yourself Skill",
       "url": "https://github.com/notdog1998/yourself-skill",
-      "main": "靈感參考",
+      "main": "AI 與工具",
       "sub": "",
       "tags": [
         "Claude Skill",
@@ -702,7 +703,7 @@
       "title": "typo/graphic posters",
       "url": "https://www.typographicposters.com/",
       "main": "靈感參考",
-      "sub": "廣告版面",
+      "sub": "視覺設計",
       "tags": [
         "海報",
         "字體設計",
