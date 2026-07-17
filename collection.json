@@ -42,6 +42,16 @@
  ],
  "items": [
   {
+   "id": "imrozfmgo",
+   "title": "寶可夢冠軍攻略網站",
+   "url": "https://gamewith.jp/pokemon-champions/",
+   "main": "靈感參考",
+   "sub": "",
+   "tags": [],
+   "desc": "這是一個寶可夢冠軍賽的攻略網站。它包含了最強寶可夢、訓練策略、使用率、傷害計算器以及隊伍組建技巧，幫助你征服冠軍。用它來幫助你更好地進行寶可夢冠軍賽的遊戲吧！",
+   "image_url": "https://img.gamewith.jp/assets/images/games/covers/ce97353be5d63d2b2bcc935845c6b9e0.png"
+  },
+  {
    "id": "n_reve",
    "title": "Reve",
    "url": "https://app.reve.com/",
