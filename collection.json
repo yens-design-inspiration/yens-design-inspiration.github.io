@@ -45,6 +45,64 @@
  ],
  "items": [
   {
+   "id": "n_themovingposter",
+   "title": "The Moving Poster",
+   "url": "https://themovingposter.com/",
+   "main": "靈感參考",
+   "sub": "動態互動",
+   "tags": [
+    "動態海報",
+    "motion poster"
+   ],
+   "desc": "動態海報（moving poster）的線上策展與檔案庫，看平面設計加上動態的各種玩法。",
+   "image_url": "",
+   "added": 194
+  },
+  {
+   "id": "n_sakuttofont",
+   "title": "SakuttoFont 2",
+   "url": "https://toktaro.github.io/SakuttoFont2/",
+   "main": "設計資源",
+   "sub": "字型",
+   "tags": [
+    "造字工具",
+    "手寫字",
+    "OTF"
+   ],
+   "desc": "瀏覽器造字工具：把手寫字的照片直接轉成 OTF 字型，一張照片自動切多字、完全在本機處理不上傳。",
+   "image_url": "",
+   "added": 193
+  },
+  {
+   "id": "n_anothergraphic",
+   "title": "Another Graphic",
+   "url": "https://anothergraphic.org/",
+   "main": "靈感參考",
+   "sub": "視覺設計",
+   "tags": [
+    "平面設計",
+    "字體排印",
+    "archive"
+   ],
+   "desc": "以字體排印（typographic treatment）為主軸的平面設計檔案庫。",
+   "image_url": "",
+   "added": 192
+  },
+  {
+   "id": "n_bookcorner",
+   "title": "book corner — time&space",
+   "url": "https://www.timeand-space.co/bookcorner",
+   "main": "靈感參考",
+   "sub": "產業媒體",
+   "tags": [
+    "設計選書",
+    "編輯"
+   ],
+   "desc": "設計工作室 time&space 的選書專區，收設計相關書籍與閱讀參考。",
+   "image_url": "",
+   "added": 191
+  },
+  {
    "id": "n_mobbin",
    "title": "Mobbin",
    "url": "https://mobbin.com/",
