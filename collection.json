@@ -45,6 +45,593 @@
  ],
  "items": [
   {
+   "id": "n_mobbin",
+   "title": "Mobbin",
+   "url": "https://mobbin.com/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "App UI",
+    "介面模式"
+   ],
+   "desc": "蒐集數千個真實 App 的介面截圖，可依流程與元件檢索，研究 UI 與互動模式的資料庫。",
+   "image_url": "",
+   "added": 190
+  },
+  {
+   "id": "n_godly",
+   "title": "Godly",
+   "url": "https://godly.website/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "網頁設計",
+    "美術指導"
+   ],
+   "desc": "精選網站藝廊，主打美術指導（art direction）強烈的網頁設計。",
+   "image_url": "",
+   "added": 189
+  },
+  {
+   "id": "n_awwwards",
+   "title": "Awwwards",
+   "url": "https://www.awwwards.com/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "得獎網站",
+    "網頁設計"
+   ],
+   "desc": "國際網頁設計獎項平台，收錄執行力極高的得獎作品。",
+   "image_url": "",
+   "added": 188
+  },
+  {
+   "id": "n_curateddesign",
+   "title": "Curated.design",
+   "url": "https://curated.design/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "精選",
+    "分類"
+   ],
+   "desc": "依分類整理的網站精選集，快速找對應類型的參考。",
+   "image_url": "",
+   "added": 187
+  },
+  {
+   "id": "n_designspells",
+   "title": "Design Spells",
+   "url": "https://designspells.com/",
+   "main": "靈感參考",
+   "sub": "動態互動",
+   "tags": [
+    "介面細節",
+    "微互動"
+   ],
+   "desc": "逐項收錄「令人驚喜的介面細節」，一則一則拆解微互動巧思。",
+   "image_url": "",
+   "added": 186
+  },
+  {
+   "id": "n_supahero",
+   "title": "Supahero",
+   "url": "https://www.supahero.io/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "Hero",
+    "首屏"
+   ],
+   "desc": "只收網站 Hero 區塊的靈感庫，快速參考首屏設計。",
+   "image_url": "",
+   "added": 185
+  },
+  {
+   "id": "n_saaspo",
+   "title": "Saaspo",
+   "url": "https://www.saaspo.com/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "SaaS",
+    "Landing Page"
+   ],
+   "desc": "收錄真正有轉換力的 SaaS Landing Page。",
+   "image_url": "",
+   "added": 184
+  },
+  {
+   "id": "n_layers",
+   "title": "Layers.to",
+   "url": "https://layers.to/",
+   "main": "靈感參考",
+   "sub": "作品集",
+   "tags": [
+    "作品集",
+    "設計師"
+   ],
+   "desc": "設計師作品集平台，聚集不在社群發表的創作者。",
+   "image_url": "",
+   "added": 183
+  },
+  {
+   "id": "n_mnmm",
+   "title": "mnmm",
+   "url": "https://mnmm.xyz/",
+   "main": "靈感參考",
+   "sub": "視覺設計",
+   "tags": [
+    "極簡",
+    "檔案庫"
+   ],
+   "desc": "極簡設計檔案庫。",
+   "image_url": "",
+   "added": 182
+  },
+  {
+   "id": "n_searchsystem",
+   "title": "Search System",
+   "url": "https://searchsystem.co/",
+   "main": "靈感參考",
+   "sub": "視覺設計",
+   "tags": [
+    "平面設計",
+    "編輯設計"
+   ],
+   "desc": "平面與編輯設計的檔案庫。",
+   "image_url": "",
+   "added": 181
+  },
+  {
+   "id": "n_rebrandgallery",
+   "title": "Rebrand Gallery",
+   "url": "https://rebrand.gallery/",
+   "main": "靈感參考",
+   "sub": "品牌標誌",
+   "tags": [
+    "Rebranding",
+    "前後對照"
+   ],
+   "desc": "品牌改造前後對照的 rebranding 藝廊。",
+   "image_url": "",
+   "added": 180
+  },
+  {
+   "id": "n_seesaw",
+   "title": "Seesaw",
+   "url": "https://www.seesaw.website/",
+   "main": "靈感參考",
+   "sub": "動態互動",
+   "tags": [
+    "動態",
+    "實驗性"
+   ],
+   "desc": "收錄帶有動態與實驗性的網站。",
+   "image_url": "",
+   "added": 179
+  },
+  {
+   "id": "n_sameenergy",
+   "title": "Same Energy",
+   "url": "https://same.energy/",
+   "main": "靈感參考",
+   "sub": "靈感收集",
+   "tags": [
+    "以圖搜圖",
+    "視覺相似"
+   ],
+   "desc": "以圖搜圖，用視覺相似度探索靈感。",
+   "image_url": "",
+   "added": 178
+  },
+  {
+   "id": "n_spiralsoot",
+   "title": "Spiral (Soot)",
+   "url": "https://spiral.soot.com/",
+   "main": "靈感參考",
+   "sub": "靈感收集",
+   "tags": [
+    "探索",
+    "瀑布流"
+   ],
+   "desc": "螺旋狀視覺瀑布流，用來隨機探索靈感。",
+   "image_url": "",
+   "added": 177
+  },
+  {
+   "id": "n_gameuidb",
+   "title": "Game UI Database",
+   "url": "https://www.gameuidatabase.com/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "遊戲UI",
+    "資料庫"
+   ],
+   "desc": "依類型分類的電玩遊戲 UI 資料庫。",
+   "image_url": "",
+   "added": 176
+  },
+  {
+   "id": "n_interfaceingame",
+   "title": "Interface In Game",
+   "url": "https://interfaceingame.com/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "遊戲UI",
+    "元件"
+   ],
+   "desc": "依元件類型整理的遊戲畫面 UI 參考。",
+   "image_url": "",
+   "added": 175
+  },
+  {
+   "id": "n_hudsandguis",
+   "title": "HUDs and GUIs",
+   "url": "https://www.hudsandguis.com/",
+   "main": "靈感參考",
+   "sub": "網頁設計",
+   "tags": [
+    "FUI",
+    "HUD"
+   ],
+   "desc": "電影與遊戲的未來感介面（HUD／FUI）收藏。",
+   "image_url": "",
+   "added": 174
+  },
+  {
+   "id": "n_loadmore",
+   "title": "Loadmo.re",
+   "url": "https://loadmo.re/",
+   "main": "靈感參考",
+   "sub": "動態互動",
+   "tags": [
+    "載入畫面",
+    "Loading"
+   ],
+   "desc": "專收載入畫面（loading）的靈感集。",
+   "image_url": "",
+   "added": 173
+  },
+  {
+   "id": "n_pinterest",
+   "title": "Pinterest",
+   "url": "https://www.pinterest.com/",
+   "main": "靈感參考",
+   "sub": "靈感收集",
+   "tags": [
+    "靈感牆"
+   ],
+   "desc": "老牌視覺靈感牆，找參考仍然好用。",
+   "image_url": "",
+   "added": 172
+  },
+  {
+   "id": "n_shadcnui",
+   "title": "shadcn/ui",
+   "url": "https://ui.shadcn.com/",
+   "main": "設計資源",
+   "sub": "元件程式碼",
+   "tags": [
+    "React",
+    "元件庫"
+   ],
+   "desc": "當前生態系的主流元件庫標準，可複製取用的 React 元件。",
+   "image_url": "",
+   "added": 171
+  },
+  {
+   "id": "n_fancycomponents",
+   "title": "Fancy Components",
+   "url": "https://www.fancycomponents.dev/",
+   "main": "設計資源",
+   "sub": "元件程式碼",
+   "tags": [
+    "React",
+    "動畫元件"
+   ],
+   "desc": "帶有非典型動畫的 React 元件庫。",
+   "image_url": "",
+   "added": 170
+  },
+  {
+   "id": "n_motionprimitives",
+   "title": "Motion Primitives",
+   "url": "https://motion-primitives.com/",
+   "main": "設計資源",
+   "sub": "元件程式碼",
+   "tags": [
+    "React",
+    "動畫"
+   ],
+   "desc": "給 React 用的動畫基礎元件（motion primitives）。",
+   "image_url": "",
+   "added": 169
+  },
+  {
+   "id": "n_numberflow",
+   "title": "NumberFlow",
+   "url": "https://number-flow.barvian.me/",
+   "main": "設計資源",
+   "sub": "元件程式碼",
+   "tags": [
+    "動態數字",
+    "元件"
+   ],
+   "desc": "平滑過場的動態數字元件。",
+   "image_url": "",
+   "added": 168
+  },
+  {
+   "id": "n_cursify",
+   "title": "Cursify",
+   "url": "https://cursify.vercel.app/",
+   "main": "設計資源",
+   "sub": "元件程式碼",
+   "tags": [
+    "游標特效",
+    "元件"
+   ],
+   "desc": "自訂游標特效的元件庫。",
+   "image_url": "",
+   "added": 167
+  },
+  {
+   "id": "n_frameruniversity",
+   "title": "Framer University",
+   "url": "https://framer.university/resources",
+   "main": "設計資源",
+   "sub": "素材",
+   "tags": [
+    "Framer",
+    "模板"
+   ],
+   "desc": "Framer 的資源與模板集。",
+   "image_url": "",
+   "added": 166
+  },
+  {
+   "id": "n_fontshare",
+   "title": "Fontshare",
+   "url": "https://www.fontshare.com/",
+   "main": "設計資源",
+   "sub": "字型",
+   "tags": [
+    "免費字型",
+    "可商用"
+   ],
+   "desc": "可商用的免費專業字型平台。",
+   "image_url": "",
+   "added": 165
+  },
+  {
+   "id": "n_freefaces",
+   "title": "Free Faces",
+   "url": "https://www.freefaces.gallery/",
+   "main": "設計資源",
+   "sub": "字型",
+   "tags": [
+    "免費字型",
+    "精選"
+   ],
+   "desc": "有個性的免費字型精選。",
+   "image_url": "",
+   "added": 164
+  },
+  {
+   "id": "n_fontsinuse",
+   "title": "Fonts In Use",
+   "url": "https://fontsinuse.com/",
+   "main": "設計資源",
+   "sub": "字型",
+   "tags": [
+    "字體應用",
+    "檔案庫"
+   ],
+   "desc": "收錄字體在真實專案中的用法檔案庫。",
+   "image_url": "",
+   "added": 163
+  },
+  {
+   "id": "n_shadertoy",
+   "title": "Shadertoy",
+   "url": "https://www.shadertoy.com/",
+   "main": "AI 與工具",
+   "sub": "生成／創意編碼",
+   "tags": [
+    "shader",
+    "creative coding"
+   ],
+   "desc": "社群 shader 在瀏覽器即時運行的平台。",
+   "image_url": "",
+   "added": 162
+  },
+  {
+   "id": "n_unicornstudio",
+   "title": "Unicorn.studio",
+   "url": "https://www.unicorn.studio/",
+   "main": "AI 與工具",
+   "sub": "動態工具",
+   "tags": [
+    "網頁動畫",
+    "no-code"
+   ],
+   "desc": "免寫程式就能做網頁動畫與特效的工具。",
+   "image_url": "",
+   "added": 161
+  },
+  {
+   "id": "n_cablesgl",
+   "title": "cables.gl",
+   "url": "https://cables.gl/",
+   "main": "AI 與工具",
+   "sub": "生成／創意編碼",
+   "tags": [
+    "node",
+    "生成式"
+   ],
+   "desc": "在瀏覽器用節點（node）製作生成式圖像。",
+   "image_url": "",
+   "added": 160
+  },
+  {
+   "id": "n_nodetoy",
+   "title": "NodeToy",
+   "url": "https://nodetoy.co/",
+   "main": "AI 與工具",
+   "sub": "生成／創意編碼",
+   "tags": [
+    "shader",
+    "three.js"
+   ],
+   "desc": "用節點製作 shader 並匯出到 three.js。",
+   "image_url": "",
+   "added": 159
+  },
+  {
+   "id": "n_derivative",
+   "title": "Derivative (TouchDesigner)",
+   "url": "https://derivative.ca/",
+   "main": "AI 與工具",
+   "sub": "生成／創意編碼",
+   "tags": [
+    "TouchDesigner",
+    "生成式"
+   ],
+   "desc": "TouchDesigner 官方站，生成式視覺與互動裝置的業界標準工具。",
+   "image_url": "",
+   "added": 158
+  },
+  {
+   "id": "n_nodesio",
+   "title": "Nodes.io",
+   "url": "https://nodes.io/",
+   "main": "AI 與工具",
+   "sub": "生成／創意編碼",
+   "tags": [
+    "computational design",
+    "node"
+   ],
+   "desc": "給計算式設計（computational design）用的視覺化環境。",
+   "image_url": "",
+   "added": 157
+  },
+  {
+   "id": "n_bitspace",
+   "title": "Bitspace",
+   "url": "https://bitspace.sh/",
+   "main": "AI 與工具",
+   "sub": "生成／創意編碼",
+   "tags": [
+    "node",
+    "視覺合成"
+   ],
+   "desc": "視覺合成用的節點編輯器。",
+   "image_url": "",
+   "added": 156
+  },
+  {
+   "id": "n_stitch",
+   "title": "Stitch (Google)",
+   "url": "https://stitch.withgoogle.com/",
+   "main": "AI 與工具",
+   "sub": "動態工具",
+   "tags": [
+    "AI 生成",
+    "介面"
+   ],
+   "desc": "Google 的 AI 工具，用文字描述生成介面畫面。",
+   "image_url": "",
+   "added": 155
+  },
+  {
+   "id": "n_framer",
+   "title": "Framer",
+   "url": "https://www.framer.com/",
+   "main": "設計資源",
+   "sub": "平台",
+   "tags": [
+    "建站",
+    "Framer"
+   ],
+   "desc": "直接從畫布發佈上線網站的平台。",
+   "image_url": "",
+   "added": 154
+  },
+  {
+   "id": "n_penpot",
+   "title": "Penpot",
+   "url": "https://penpot.app/",
+   "main": "設計資源",
+   "sub": "平台",
+   "tags": [
+    "開源",
+    "Figma 替代"
+   ],
+   "desc": "開源的 Figma 替代方案。",
+   "image_url": "",
+   "added": 153
+  },
+  {
+   "id": "n_rive",
+   "title": "Rive",
+   "url": "https://rive.app/",
+   "main": "設計資源",
+   "sub": "平台",
+   "tags": [
+    "互動動畫",
+    "上線"
+   ],
+   "desc": "可上線於產品的互動式動畫工具。",
+   "image_url": "",
+   "added": 152
+  },
+  {
+   "id": "n_skillssh",
+   "title": "Skills.sh",
+   "url": "https://skills.sh/",
+   "main": "AI 與工具",
+   "sub": "AI 情報與教學",
+   "tags": [
+    "AI agent",
+    "skill"
+   ],
+   "desc": "可直接掛到 AI agent 的現成 skill 目錄。",
+   "image_url": "",
+   "added": 151
+  },
+  {
+   "id": "n_zed",
+   "title": "Zed",
+   "url": "https://zed.dev/",
+   "main": "AI 與工具",
+   "sub": "動態工具",
+   "tags": [
+    "編輯器",
+    "AI agent"
+   ],
+   "desc": "內建 AI agent 的高速程式編輯器。",
+   "image_url": "",
+   "added": 150
+  },
+  {
+   "id": "n_v0",
+   "title": "v0",
+   "url": "https://v0.dev/",
+   "main": "AI 與工具",
+   "sub": "動態工具",
+   "tags": [
+    "AI 生成",
+    "介面"
+   ],
+   "desc": "用文字生成介面的 AI 工具。",
+   "image_url": "",
+   "added": 149
+  },
+  {
    "id": "imsbkmzxt",
    "title": "支援実績｜セブンデックス SEVEN DEX",
    "url": "https://sevendex.com/work",
