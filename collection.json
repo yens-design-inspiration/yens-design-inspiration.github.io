@@ -30,10 +30,11 @@
   ]
  },
  "featured": [
-  "n_creatorhome",
-  "imryh6vqn",
-  "n_itsnicethat",
   "n_brandnew",
+  "n_itsnicethat",
+  "imryh6vqn",
+  "n_dezalink",
+  "n_creatorhome",
   "n_cntrl",
   "n_browsecool",
   "n_60fps",
@@ -44,6 +45,17 @@
   "n_reve"
  ],
  "items": [
+  {
+   "id": "imwubs5l2",
+   "title": "Lovart – 全球首款 AI 設計智能體 | 幾分鐘搞定專業設計",
+   "url": "https://www.lovart.ai/zh-TW",
+   "main": "靈感參考",
+   "sub": "",
+   "tags": [],
+   "desc": "一次對話，包辦從 Logo 到全套行銷素材。只需一句話描述品牌，全自動生成設計。無需設計背景！",
+   "image_url": "https://assets-persist.lovart.ai/img/0ec3ec8352e24750bddb7764c24e81e1/d161b5ccddb06a2eb84f154ee56b0d95d75703e5.png",
+   "added": 208
+  },
   {
    "id": "n_foliosgallery",
    "title": "Folios.Gallery",
