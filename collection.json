@@ -45,6 +45,22 @@
  ],
  "items": [
   {
+   "id": "n_magnific",
+   "title": "Magnific",
+   "url": "https://www.magnific.com/",
+   "main": "AI 與工具",
+   "sub": "AI 影像",
+   "tags": [
+    "AI 生圖",
+    "AI 影片",
+    "放大修圖",
+    "Freepik"
+   ],
+   "desc": "Freepik 旗下的 AI 創作平台，起家靠高畫質放大，現在把影像、影片、聲音的各家模型收在同一個工作台。做提案視覺或商品圖時很實用。",
+   "image_url": "https://media.magnific.com/meta-tags-social/mg-home-og.jpg?w=1200&h=675",
+   "added": 204
+  },
+  {
    "id": "n_huntbranding",
    "title": "Hunt",
    "url": "https://www.hunt-branding.be/en",
